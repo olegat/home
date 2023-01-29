@@ -1,0 +1,65 @@
+
+<!-- saved from url=(0184)https://stadia.google.com/assistant/03c07c91_81c1_4e99_8cfc_ec8549d684cb/webassistant/2020.06.08.020001.00/voice_plate/webassistant.html?embeddingOrigin=https%3A%2F%2Fstadia.google.com -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="./css(1)" ref="stylesheet" type="text/css">
+  <link href="./webassistant.css" rel="stylesheet">
+  <style>
+    html,
+    body {
+      background: transparent;
+      margin: 0;
+    }
+
+    #popout {
+      height: 100%;
+      width: 100%;
+    }
+
+    .popout-content {
+    }
+
+    .popout-content:hover,
+    .popout-content:focus {
+      outline: none;
+    }
+
+    #assistant-card-iframe {
+        border: none;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+  </style>
+<style type="text/css"></style></head>
+<body>
+  <div id="popout">
+    <div id="assistant-main-cards" style="height: 100%; display: block;">
+      <div class="popout-content" id="assistant-card-content">
+        <iframe id="assistant-card-iframe" src="./saved_resource.html"></iframe>
+      </div>
+      <div class="watson" id="assistant-bar" tabindex="-1" style="display: none;">
+        <div id="assistant-gradient">
+        </div>
+        <div class="assistant-bar-content">
+          <div id="assistant-dots">
+            <div id="assistant-dots-container" class="assistant-molecule">
+              <div class="assistant-dot-blue"><div class="assistant-dot"></div></div>
+              <div class="assistant-dot-red"><div class="assistant-dot"></div></div>
+              <div class="assistant-dot-yellow"><div class="assistant-dot"></div></div>
+              <div class="assistant-dot-green"><div class="assistant-dot"></div></div>
+            </div>
+          </div>
+          <div class="assistant-query-text" id="user-query"></div>
+          <img id="assistant-logo" alt="Assistant Logo" style="visibility: hidden;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <script src='hotword.js'></script> -->
+  <script src="./webassistant.js"></script>
+  <script>
+    const platform = new Platform(typeof Module !== 'undefined' ? Module : undefined);
+  </script>
+
+
+</body></html>
